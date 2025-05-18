@@ -1,0 +1,10 @@
+.home-page {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Ensures the header takes its natural height, and the rest fills available space */
+  justify-items: stretch; /* Ensures children span the full width */
+  align-items: start; /* Aligns items to the top of each cell */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh; /* Full viewport height for layout */
+}
