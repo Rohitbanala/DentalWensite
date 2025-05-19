@@ -1,0 +1,45 @@
+.clinic-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.intro-text {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.intro-title {
+  font-size: 2rem;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.intro-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.intro-image {
+  flex: 1;
+  text-align: center;
+}
+
+.clinic-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
