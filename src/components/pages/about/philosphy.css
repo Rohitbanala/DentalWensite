@@ -1,0 +1,43 @@
+.mission-statement {
+  text-align: center;
+  background-color: white;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  padding: 40px 20px;
+}
+
+.mission-statement h2 {
+  font-size: 28px;
+  color: #2a2a6e;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.mission-statement p {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.6;
+  padding: 15px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 600px) {
+  .mission-statement {
+    margin: 28px 0;
+    padding: 20px 15px;
+  }
+
+  .mission-statement h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .mission-statement p {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}

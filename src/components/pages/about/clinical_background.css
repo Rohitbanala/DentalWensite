@@ -1,0 +1,60 @@
+.about-page {
+  background-color: #f0f0f0;
+  color: #333;
+  min-height: calc(100vh - 50px);
+}
+
+.clinic-background {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clinic-background h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.clinic-background .clinic-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  border-radius: 8px;
+}
+
+.clinic-background p {
+  font-size: 17px;
+  line-height: 1.6;
+  padding: 15px 130px;
+  color: #4a4a4a;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 600px) {
+  .about-page {
+    padding: 15px 20px;
+    margin-top: 100px;
+  }
+
+  .clinic-background {
+    padding: 10px;
+  }
+
+  .clinic-background h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .clinic-background .clinic-image {
+    margin-bottom: 15px;
+  }
+
+  .clinic-background p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}

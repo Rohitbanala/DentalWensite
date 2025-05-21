@@ -1,0 +1,131 @@
+.practitioners-section {
+  padding: 24px;
+  text-align: center;
+  background-color: white;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+.practitioners-section h2 {
+  font-size: 28px;
+  color: #2a2a6e;
+  margin-bottom: 28px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.practitioners-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.practitioner-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.practitioner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.practitioner-card:focus-within {
+  outline: 2px solid #ffd700;
+  outline-offset: 2px;
+}
+
+.practitioner-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 14px;
+  border: 2px solid #f5f5f5;
+}
+
+.practitioner-card h3 {
+  font-size: 20px;
+  color: #2a2a6e;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.practitioner-title {
+  font-size: 16px;
+  color: #ffd700;
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.practitioner-qualifications {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.practitioner-bio {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .practitioners-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .practitioners-section {
+    margin: 28px auto;
+    padding: 16px;
+  }
+
+  .practitioners-section h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .practitioners-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .practitioner-card {
+    padding: 20px;
+  }
+
+  .practitioner-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .practitioner-card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .practitioner-title {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .practitioner-qualifications,
+  .practitioner-bio {
+    font-size: 13px;
+  }
+
+  .practitioner-bio {
+    max-width: 240px;
+  }
+}
