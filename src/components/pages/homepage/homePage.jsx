@@ -9,7 +9,6 @@ import ServicesOverview from "./services_overview";
 export default function HomePage() {
   return (
     <section className="home-page">
-      <Header />
       <HeroSection />
       <ClinicIntro />
       <ServicesOverview />

@@ -8,7 +8,6 @@ import Practitioners from "./practitioner_details";
 export default function AboutUs() {
   return (
     <section className="about-us">
-      <Header />
       <ClinicalBackground />
       <Practitioners />
       <MissionStatement />

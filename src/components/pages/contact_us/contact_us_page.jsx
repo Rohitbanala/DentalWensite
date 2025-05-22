@@ -8,7 +8,6 @@ import ClinicLocation from "./google_maps";
 export default function ContactUs() {
   return (
     <section className="contact-us">
-      <Header />
       <section className="contact">
         <ContactForm />
         <ContactInfo />

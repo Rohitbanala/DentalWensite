@@ -1,15 +1,15 @@
 .contact-form {
-  width: 90%; /* Restricts the form width */
-  width: 400px; /* Ensures the form doesn't exceed a fixed width */
-  background: rgba(255, 255, 255, 0.1); /* Transparent form background */
+  width: 90%;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4); /* Soft, deeper shadow */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+  backdrop-filter: blur(10px);
 }
 
 .form-group {
@@ -32,7 +32,7 @@ textarea {
   border: none;
   border-radius: 8px;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  background-color: rgba(255, 255, 255, 0.9);
   color: #333333;
   box-sizing: border-box;
   transition: box-shadow 0.3s ease, transform 0.2s ease;
@@ -41,12 +41,12 @@ textarea {
 input:focus,
 textarea:focus {
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
-  transform: scale(1.02); /* Adds a slight zoom effect */
+  transform: scale(1.02);
 }
 
 textarea {
   resize: none;
-  height: 120px; /* Default height for textareas */
+  height: 120px;
 }
 
 button.submit-button {
@@ -64,12 +64,12 @@ button.submit-button {
 
 button.submit-button:hover {
   background: linear-gradient(90deg, #0056b3, #007bff);
-  transform: translateY(-2px); /* Adds a hover lift effect */
+  transform: translateY(-2px);
 }
 
 .error-text {
   color: #ff6b6b;
   font-size: 0.85rem;
   margin-top: 5px;
-  font-style: italic; /* Differentiates error messages */
+  font-style: italic;
 }

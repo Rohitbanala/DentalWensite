@@ -1,14 +1,9 @@
 .contact-info {
-  background: rgba(
-    0,
-    0,
-    0,
-    0.05
-  ); /* Subtle darker background for better contrast */
+  background: rgba(0, 0, 0, 0.05);
   padding: 25px;
   border-radius: 20px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Softer shadow */
-  color: #333333; /* Darker text color for better contrast */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  color: #333333;
   max-width: 550px;
   width: 85%;
   text-align: left;
@@ -20,7 +15,7 @@
 .contact-info h2 {
   margin-bottom: 15px;
   font-size: 2rem;
-  color: #111111; /* Dark heading color */
+  color: #111111;
   font-weight: bold;
 }
 
@@ -29,12 +24,12 @@
   align-items: center;
   margin: 12px 0;
   font-size: 1.2rem;
-  color: #444444; /* Slightly darker text for clarity */
+  color: #444444;
 }
 
 .info-item .icon {
   margin-right: 20px;
-  color: #0078d7; /* Stronger blue color for icons */
+  color: #0078d7;
   font-size: 1.7rem;
 }
 

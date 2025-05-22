@@ -12,19 +12,17 @@
 }
 .contact {
   display: flex;
-  flex-direction: row; /* Arranges children horizontally */
-  justify-content: space-evenly; /* Space between the two components */
-  align-items: center; /* Aligns items to the top */
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
 
-  min-height: 100vh; /* Ensures the section takes the full viewport height */
-  box-sizing: border-box; /* Ensures padding is included in the element's width/height */
-  gap: 50px; /* Space between ContactForm and ContactInfo */
+  gap: 50px;
 }
 
 @media (max-width: 1024px) {
   .contact {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center; /* Center the items */
-    padding: 20px; /* Reduce padding for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
 }
