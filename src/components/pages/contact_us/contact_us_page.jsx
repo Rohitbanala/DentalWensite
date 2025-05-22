@@ -1,5 +1,6 @@
 import Footer from "../../common_components/footer/footer";
-import Header from "../../common_components/header/header";
+import HeroSection from "../homepage/heroSection";
+
 import ContactInfo from "./contact_info";
 import ContactForm from "./contact_us_form";
 
@@ -13,6 +14,7 @@ export default function ContactUs() {
         <ContactInfo />
       </section>
       {/* <ClinicLocation /> */}
+      {/* <HeroSection /> */}
       <Footer />
     </section>
   );
