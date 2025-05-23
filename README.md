@@ -25,7 +25,7 @@ This project is a dynamic modern website for a dental clinic, showcasing its ser
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dental-clinic-website.git
+   git clone https://github.com/Rohitbanala/DentalWensite
    cd dental-clinic-website
 
 
