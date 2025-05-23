@@ -1,13 +1,12 @@
 # Dental Clinic Website
 
-This project is a responsive and modern website for a dental clinic, showcasing its services, contact details, and clinic information. The website is built using React and adheres to a structured component-based architecture. It also demonstrates form validation and interaction using placeholder APIs.
+This project is a dynamic modern website for a dental clinic, showcasing its services, contact details, and clinic information. The website is built using React used zod for validation and axios for api handling(just placeholders).
 
 ---
 
 ## Features
 
 - **Component-Based Architecture**: Each section of the website (e.g., Contact Form, Services, etc.) is built as a reusable React component.
-- **Responsive Design**: The website is fully responsive, providing an optimal viewing experience across devices.
 - **Form Validation**: Used `zod` to validate user input on the contact form, ensuring data integrity.
 - **Axios Integration**: Incorporated `axios` for sending form data to a placeholder API (no backend connected).
 
@@ -16,7 +15,7 @@ This project is a responsive and modern website for a dental clinic, showcasing 
 ## Tech Stack
 
 - **Frontend**: React
-- **Styling**: CSS Modules
+- **Styling**: CSS
 - **Form Validation**: Zod
 - **HTTP Client**: Axios
 
@@ -52,10 +51,6 @@ This project is a responsive and modern website for a dental clinic, showcasing 
 
 ## Usage
 
-### Adding Services
-
-* Update the `services` array in the `ServicesList` component to add or modify the services displayed.
-
 ### Placeholder Form Handling
 
 * The contact form currently sends data to a placeholder using `axios`. You can replace the placeholder URL with your API endpoint when integrating with a backend.
@@ -74,7 +69,6 @@ The form in the `ContactForm` component uses Zod for validation:
 ## Future Enhancements
 
 * **Backend Integration**: Add backend APIs for handling form submissions and dynamic data.
-* **CMS Integration**: Integrate with a CMS to make content management easier for non-technical users.
 * **Additional Features**: Add appointment booking, user authentication, and more.
 
 ---
@@ -84,13 +78,4 @@ The form in the `ContactForm` component uses Zod for validation:
 * [React](https://reactjs.org/)
 * [Zod](https://zod.dev/)
 * [Axios](https://axios-http.com/)
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-```
-```
 
