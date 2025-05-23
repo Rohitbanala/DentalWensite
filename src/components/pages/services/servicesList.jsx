@@ -3,45 +3,50 @@ import "./servicesList.css";
 import "./servicesList.css";
 import { useState } from "react";
 import Modal from "./modal.jsx"; // Assumes you have a Modal component for details.
-
+import DentalImplants from "../../../assets/dentalimplants.jpeg";
+import GumCare from "../../../assets/gumcare.jpeg";
+import Orthodontics from "../../../assets/Orthodontics.jpeg";
+import RootCanalTherapy from "../../../assets/rootcanaltherapy.jpeg";
+import TeethCleaning from "../../../assets/teethcleaning.jpeg";
+import TeethWhitening from "../../../assets/teethwhitening.jpeg";
 const services = [
   {
-    icon: "🦷",
+    icon: TeethCleaning,
     title: "Teeth Cleaning",
     description: "Professional cleaning to maintain oral health.",
     details:
       "Teeth cleaning involves removing plaque, tartar, and stains for optimal oral health.",
   },
   {
-    icon: "✨",
+    icon: TeethWhitening,
     title: "Teeth Whitening",
     description: "Safe and effective teeth whitening solutions.",
     details:
       "We use advanced techniques to safely whiten teeth, ensuring a brighter smile.",
   },
   {
-    icon: "🦷",
+    icon: DentalImplants,
     title: "Dental Implants",
     description: "Restore missing teeth with durable implants.",
     details:
       "Dental implants replace missing teeth with durable and natural-looking alternatives.",
   },
   {
-    icon: "📏",
+    icon: Orthodontics,
     title: "Orthodontics",
     description: "Straighten teeth with our orthodontic treatments.",
     details:
       "We offer braces and aligners to correct misaligned teeth and enhance your smile.",
   },
   {
-    icon: "🌸",
+    icon: GumCare,
     title: "Gum Care",
     description: "Comprehensive treatments for healthy gums.",
     details:
       "Our gum care services address gingivitis, periodontal disease, and other gum issues.",
   },
   {
-    icon: "🛠️",
+    icon: RootCanalTherapy,
     title: "Root Canal Therapy",
     description: "Save infected teeth with precision treatments.",
     details:
@@ -70,7 +75,9 @@ export default function ServicesList() {
             key={index}
             onClick={() => handleCardClick(service)}
           >
-            <div className="service-icon">{service.icon}</div>
+            <div className="service-image">
+              <img src={service.icon} alt={service.title} />
+            </div>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
           </div>
