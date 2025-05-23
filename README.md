@@ -19,7 +19,7 @@ This project is a dynamic modern website for a dental clinic, showcasing its ser
 - **Form Validation**: Zod
 - **HTTP Client**: Axios
 
-````markdown
+
 ## Installation
 
 ### Steps
@@ -27,7 +27,7 @@ This project is a dynamic modern website for a dental clinic, showcasing its ser
    ```bash
    git clone https://github.com/your-username/dental-clinic-website.git
    cd dental-clinic-website
-````
+
 
 2. Install dependencies:
 
@@ -45,7 +45,7 @@ This project is a dynamic modern website for a dental clinic, showcasing its ser
    yarn start
    ```
 
-4. Open the app in your browser at `http://localhost:3000`.
+4. Open the app in your browser at `http://localhost:5170`.
 
 ---
 
